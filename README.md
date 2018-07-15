@@ -9,7 +9,7 @@ it is impossible to typecheck programs written in it. It is true that humans fin
 difficult and irrational, that is because they tend to reason in terms of arithmetic systems they are familiar with, e.g. integers or real numbers.
 
 Extending the JavaScript typesystem with rules that make it not just easier to work with but also _sound_ is the goal of projects
-like [Flow](https://flow.org/en). The Flow typesystem is described on [ArXiv](https://arxiv.org/pdf/1708.08021.pdf). TypeScript (https://www.typescriptlang.org/)
+like [Flow](https://flow.org/en). The Flow typesystem is described on [ArXiv](https://arxiv.org/pdf/1708.08021.pdf). [TypeScript](https://www.typescriptlang.org/)
 is another example, albeit with a formally weaker typesystem, but equally great for development.
 
 One focus of this repository is on typing data structures and algorithms implemented using plain JavaScript techniques, with Flow annotations.
