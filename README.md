@@ -33,7 +33,7 @@ Every module has three parts:
 Not meant for actual usage (production or not). The data structures are by default only used in tests, but it is possible to just import them
 in any JavaScript project after stripping all type annotations with Babel.
 
-First, install the dependencies: `npm i`.
+First, install the dependencies: `npm i; flow-typed install jest`.
 
 - Typecheck: `npm run flow`
 - Test: `npm run test`
