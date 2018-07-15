@@ -21,14 +21,11 @@ whether the implementation is actually conforming to the algorithm specification
 
 Every module has three parts:
 
-- JavaScript implementation (*.js): the implementation of the data structure
-  Direct implementations of some generic data structures in plain JavaScript (ES8) with Flow annotations.
+- JavaScript implementation (*.js): Direct implementations of some generic data structures in plain JavaScript (ES8) with Flow annotations.
 
-- Runtime tests (*.spec.js): Jest test files
-  Unit tests. These are typechecked first, then types are stripped using the flow-strip-types Babel transform before running Jest.
+- Runtime tests (*.spec.js): Unit tests. These are typechecked first, then types are stripped using the flow-strip-types Babel transform before running Jest.
 
-- Compile-time tests (*.flowcheck.js): Compile-time checks for Flow types
-  Never executed in runtime, only automatically checked by Flow. It contains error expectations that raise warnings if not met, as well as raising regular
+- Compile-time tests (*.flowcheck.js): Compile-time checks for Flow types. Never executed in runtime, only automatically checked by Flow. It contains error expectations that raise warnings if not met, as well as raising regular
   type errors.
 
 ## Usage
