@@ -14,7 +14,7 @@ is another example, albeit with a formally weaker typesystem, but equally great 
 
 One focus of this repository is on typing data structures and algorithms implemented using plain JavaScript techniques, with Flow annotations.
 
-It also focuses on testing. Typecheckers can decide if the implementation is safe--as in, every evaluation step is operating only on values of the expected type (type soundness)--but not
+It also focuses on testing. Typecheckers can decide if the implementation is safe—as in, every evaluation step is operating only on values of the expected type (type soundness)—but not
 whether the implementation is actually conforming to the algorithm specification (unless the typechecker also happens to be a [theorem](https://coq.inria.fr/) [prover](http://wiki.portal.chalmers.se/agda/pmwiki.php), so that type definitions and algorithm specification are the same). Testing is necessary to have a certain degree of confidence (but no guarantee) in the soundness of the implementation.
 
 ## Structure
