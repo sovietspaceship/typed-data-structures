@@ -41,6 +41,6 @@ First, install the dependencies: `npm i`.
 - Typecheck: `npm run flow`
 - Test: `npm run test`
 
-## License
+## License
 
 This software is released under the MIT licence. See LICENSE for more informations.
