@@ -43,4 +43,4 @@ First, install the dependencies: `npm i`.
 
 ## License
 
-This software is released under the MIT licence. See LICENSE for more informations.
+This software is released under the MIT license. See LICENSE for more informations.
